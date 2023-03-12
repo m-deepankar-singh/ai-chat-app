@@ -16,7 +16,12 @@
     "react-dom": "^18.2.0",
     "react-dropzone": "^14.2.3",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.8.1",
+    "vite-plugin-commonjs": "^0.6.2",
+    "vite-plugin-require": "^1.1.10",
+    "vite-plugin-require-support": "^1.6.1",
+    "vite-plugin-require-transform": "^1.0.9",
+    "websocket": "^1.0.34"
   },
   "devDependencies": {
     "@types/node": "^18.14.0",
@@ -26,6 +31,7 @@
     "eslint": "^8.34.0",
     "eslint-config-react-app": "^7.0.1",
     "sass": "^1.58.3",
+    "terser": "^5.16.6",
     "vite": "^4.1.0"
   }
 }

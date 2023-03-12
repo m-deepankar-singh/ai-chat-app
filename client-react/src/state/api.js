@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const api = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl:" http://localhost:1337/" }),
+  baseQuery: fetchBaseQuery({ baseUrl:"https://aichat-mo8q.onrender.com" }),
   reducerPath: "main",
   tagTypes: [],
   endpoints: (build) => ({
