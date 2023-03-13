@@ -47,6 +47,15 @@ body,
   height: 15px !important;
 }
 
+.login-page1 {
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+
 .login-page {
   background-color: $primary-500;
   height: 100%;

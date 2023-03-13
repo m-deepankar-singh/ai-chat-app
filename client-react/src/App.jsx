@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Chat from "./components/chat";
 import Login from "./components/login";
+import ai from '../src/assets/aiverse.png'
 // import Chat from "@/components/chat";
 // import Login from "@/components/login";
 
@@ -13,6 +14,9 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
+      <header >
+        <img src={ai} alt="ai" className="login-page1" />
+      </header>
         <Routes>
           <Route
             path="/"
